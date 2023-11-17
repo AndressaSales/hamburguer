@@ -1,0 +1,15 @@
+.text img{
+    float: right;
+}
+.text{
+    padding: 18px;
+    background: linear-gradient(#eae3e3, #FFF);
+}
+.text h1{
+    font-size: 30px;
+}
+.text p{
+    padding: 25px;
+    font-style: oblique;
+    font-weight: bold;
+}

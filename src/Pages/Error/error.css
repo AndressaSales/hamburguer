@@ -1,0 +1,27 @@
+.cont-erro{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.cont-erro img{
+    margin: 14px 0;
+    animation: aaa 4.5s infinite  linear;
+}
+@keyframes aaa{
+    100%{
+        transform: translatey(-40px);
+    }
+}
+.cont-erro a{
+    background-color: red;
+    color: #FFF;
+    text-decoration: none;
+    padding: 12px 18px;
+    border-radius: 9px;
+    margin: 14px 0;
+    font-weight: bold;
+}
